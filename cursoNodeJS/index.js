@@ -1,9 +1,15 @@
-let somar = (x1, operador, x2) => {
+function apagarDado() {
+    alert('document.getElementById("dados")');
+};
+/*
+function insertDados(dado){
 
-return eval(`${x1} ${operador} ${x2} `);
+};
+function getResult(conta, resultado){
 
-}
+    conta = document.getElementById('dados');
+    resultado = `${conta}`;
+    document.getElementById('dados') = resultado;
+};
 
-console.log(somar(2, "+" , 2));
-let resultado = somar(3, "*" ,3);
-console.log(resultado);
+*/
